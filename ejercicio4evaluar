@@ -1,0 +1,17 @@
+password = input("ingrese su nueva contraseña: ")
+tiene_ocho_caracteres = len(password) >= 8
+tiene_numero = False
+
+for caracter in password:
+    if caracter.isdigit():
+        tiene_numero = True
+        break 
+if tiene_ocho_caracteres and tiene_numero:
+    print("La contraseña es válida Saponinbimborra.")
+else:
+    print("muy zzzzz:")
+      
+    if not tiene_ocho_caracteres:
+        print("- Debe tener al menos 8 caracteres.")
+    if not tiene_numero:
+        print("- Debe contener al menos un número.")

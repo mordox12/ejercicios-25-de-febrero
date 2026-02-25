@@ -1,0 +1,10 @@
+bytes_totales = float(input("Ingresa la cantidad de bytes a convertir: "))
+
+kb = bytes_totales / 1024
+mb = kb / 1024
+gb = mb / 1024
+
+print(f"Resultados de la conversión para {bytes_totales} bytes:")
+print(f"En Kilobytes (KB): {kb}")
+print(f"En Megabytes (MB): {mb}")
+print(f"En Gigabytes (GB): {gb}")
