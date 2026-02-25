@@ -1,0 +1,13 @@
+import random
+
+ips_servidores = ["192.168.1.11", "10.0.0.4", "190.168.34.23", "111.1010.02.14"]
+
+print("--- MONITOREANDO SERVIDORES ---")
+
+for ip in ips_servidores:
+    
+    respuesta_ping = random.choice([True, False])
+    if respuesta_ping:
+        print(f"El servidor {ip} está respondiendo.")
+    else:
+        print(f"¡Alerta! El servidor {ip} no responde.")

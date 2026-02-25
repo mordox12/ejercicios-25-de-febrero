@@ -7,9 +7,9 @@ for caracter in password:
         tiene_numero = True
         break 
 if tiene_ocho_caracteres and tiene_numero:
-    print("La contraseña es válida Saponinbimborra.")
+    print("La contraseña es válida :D.")
 else:
-    print("muy zzzzz:")
+    print("La contraseña no es válida por:")
       
     if not tiene_ocho_caracteres:
         print("- Debe tener al menos 8 caracteres.")
